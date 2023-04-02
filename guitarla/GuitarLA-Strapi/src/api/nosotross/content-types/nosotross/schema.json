@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "nosotrosses",
+  "info": {
+    "singularName": "nosotross",
+    "pluralName": "nosotrosses",
+    "displayName": "Nosotross"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulo": {
+      "type": "string",
+      "required": true
+    },
+    "descripcion": {
+      "type": "richtext"
+    },
+    "imagen": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "url": {
+      "type": "uid",
+      "targetField": "titulo"
+    }
+  }
+}
