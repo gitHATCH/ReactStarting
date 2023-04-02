@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "clientes",
+  "info": {
+    "singularName": "cliente",
+    "pluralName": "clientes",
+    "displayName": "Clientes"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "empresa": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "telefono": {
+      "type": "biginteger"
+    },
+    "notas": {
+      "type": "richtext"
+    }
+  }
+}
